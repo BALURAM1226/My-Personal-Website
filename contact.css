@@ -102,6 +102,7 @@ input{
   font-size:15px;
   padding:6px;
   margin:3px 0 3px 0;
+  border:1px solid black;
   border-radius:4px;
 }
 .country{
@@ -110,9 +111,9 @@ input{
 }
 #btn{
   margin-top:10px;
-  background:#4e86ed;
+  background:#ff829b;
   font-weight: bold;
-  font-size:16px;
+  font-size:24px;
   width:75px;
   border-radius:7px;
   height:35px;
@@ -122,5 +123,6 @@ input{
 }
 #subject{
   padding:5px;
+  border:1px solid black;
   border-radius:6px;
 }
