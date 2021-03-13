@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  overflow: scroll;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to left, #fff 70%, #6efff0 20%);
+}
+
+.navsection {
+  width: 100%;
+  overflow: hidden;
+  height: 9vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to top, #fff 80%, #6efff0 20%);
+}
+
+.logo {
+  padding-left: 92px;
+  box-sizing: border-box;
+  width: 50%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 8px;
+  background:#d095f0 ;
+}
+
+.logo h1 {
+  font-size: 1.6rem;
+  animation: bk 2s linear infinite;
+
+  animation-direction: alternate;
+}
+
+@keyframes bk {
+  from {
+    padding-left: 40px;
+  }
+  to {
+    padding-right: 40px;
+  }
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 18px;
+  position: relative;
+}
+
+nav a:last-child {
+  color: blue;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  width: 0;
+  left: 0;
+  height: 2px;
+  border-bottom: 2px solid #4458dc;
+  transition: all 0.4s linear;
+}
+nav a:hover:before {
+  width: 100%;
+}
+.container{
+  margin:20% 8% 0 0;
+  float: right;
+}
+.container h3{
+  text-align: center;
+}
+.inner{
+  background:#96ff8c;
+  margin-top:5.9px;
+  border:2px solid black;
+  border-radius:14px;
+}
+form{
+  padding: 20px;
+  width:500px;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+
+}
+input{
+  font-size:15px;
+  padding:6px;
+  margin:3px 0 3px 0;
+  border-radius:4px;
+}
+.country{
+  padding:6px;
+  font-size:14px;
+}
+#btn{
+  margin-top:10px;
+  background:#4e86ed;
+  font-weight: bold;
+  font-size:16px;
+  width:75px;
+  border-radius:7px;
+  height:35px;
+}
+#sub{
+  padding-top:4px;
+}
+#subject{
+  padding:5px;
+  border-radius:6px;
+}
