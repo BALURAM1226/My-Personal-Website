@@ -134,8 +134,7 @@ main {
   
 }
 .btn2:hover {
-  transition-delay: 0.5s;                
-    
+  
   background:#e3fa70;
   color: #000;
 }
