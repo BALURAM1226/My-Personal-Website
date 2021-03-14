@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="contact form example">
     <base target="_top">
+    <script type="text/javascript" src="script.gs"></script>
     <script>
       // from https://developers.google.com/apps-script/guides/html/communication#forms
       // Prevent forms from submitting.
@@ -313,6 +314,11 @@
     <input id="btn" type="submit" value="Submit">
 
   </form>
+       <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+    
 </div>
       </div>
   </header>    
