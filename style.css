@@ -163,6 +163,9 @@ main {
   font-size: 10px;
 }
   .leftside{
+    justify-content: center;
+    text-align: center;
+    align-items: center
     display: block;
     }
 .leftside h1 {
