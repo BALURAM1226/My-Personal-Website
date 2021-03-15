@@ -194,8 +194,11 @@ main {
     }
   .rightside img{
     margin-top:10px;
-    align-items: center;
-    justify-content: center;
-    max-width:208px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+      
+
+
     }
   }
