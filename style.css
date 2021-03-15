@@ -150,3 +150,19 @@ main {
   border: 2px solid #000;
   border-radius: 5px;
 }
+@media only screen(max-width:500px){
+  .logo{
+    width:27%;
+    padding-left:9px;
+    }
+  .logo h1{
+    font-size:12px;
+    }
+  .main{
+    display:block;
+    
+    }
+  .rightside img{
+    max-width:300px;
+    }
+  }
